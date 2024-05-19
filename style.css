@@ -1,0 +1,100 @@
+*, html, body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+canvas{
+    background-image: url("jungleBack2.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    z-index: -5;
+}
+
+#buttons{
+    margin: auto;
+    text-align: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    width: 100%;
+    z-index: 10;
+    /*w3schools*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#typer{
+    position: absolute;
+    color: white;
+    top: 20%;
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px black;
+}
+
+#btn1, #btn3, #btn4, #btn5, #btn6{
+    display: none;
+    position: absolute;
+    text-align: center;
+}
+
+#btn1{
+    position: absolute;
+    top: 40%;
+}
+
+.btn {
+    background: linear-gradient(#085A00, #00741B);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 5px 5px 20px 0px #000000;
+    text-shadow: 4px 2px 5px #000000;
+    border: groove #365c42 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: linear-gradient(#00741B, #085A00);
+}
+
+#btn2{
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 51%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#inputThing{
+    display: none;
+    position: absolute;
+    top: 81%;
+    left: 35%;
+    padding: 10px;
+}
+
+#btn3{
+    top: 10%;
+}
+
+#btn4{
+    top: 30%;
+}
+
+#btn5{
+    top: 50%;
+}
+
+#btn6{
+    top: 70%;
+}
